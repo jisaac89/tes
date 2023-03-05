@@ -10,7 +10,7 @@ Automate unit testing with tes! generate unit tests for JavaScript and Typescrip
     "openai"
 
 # example
-- `npm run start --file="./tes.js" --libraries="jest" --targets="traverseFolder" --output="traverse.js"`
+- `npm run tes --file="./tes.js" --libraries="jest" --targets="traverseFolder" --output="traverse.js"`
 
 # options
 
