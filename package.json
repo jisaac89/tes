@@ -1,0 +1,19 @@
+{
+  "name": "tes",
+  "version": "0.0.1",
+  "description": "automate unit testing",
+  "main": "tes.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tes.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/parser": "^7.21.2",
+    "dotenv": "^16.0.3",
+    "ignore": "^5.2.4",
+    "openai": "^3.2.1"
+  }
+}
