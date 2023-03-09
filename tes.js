@@ -43,11 +43,11 @@ const generateTestCase = async (file, targets) => {
 
     ${targets ? targets.split(',').length ? onlyForVerbiage + targets.split(',').map(target => `${target}.`) : onlyForVerbiage + targets : ''}
     
-    Please use the same code style of quotes, indentation, etc. when generating the unit tests.
+    Use the same code style of quotes, indentation, etc. when generating the unit tests.
     
     The unit tests should handle both valid and invalid inputs, including edge cases and error conditions.
     
-    Generate at least five (3) unit tests for the function, covering different input values and scenarios`;
+    Generate at least three (3) unit tests for the function, covering different input values and scenarios`;
 
 
     const completions = await openai.createCompletion({
